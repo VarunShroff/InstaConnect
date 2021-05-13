@@ -1,0 +1,30 @@
+{
+  "name": "MERNG_APP",
+  "version": "0.0.1",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "parcel-bundler": "^1.12.4"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "description": "",
+  "dependencies": {
+    "apollo-server": "^2.21.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.2"
+  }
+}
